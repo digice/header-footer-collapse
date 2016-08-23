@@ -53,10 +53,10 @@ $('document').ready(function() {
 
     var scrollBottom = scrollPosition + windowHeight;
 
-    if (scrollBottom > bodyHeight) {
+    if (scrollBottom > (bodyHeight - 2)) {
       expandFooter();
     }
-    if (scrollBottom < bodyHeight) {
+    if (scrollBottom < (bodyHeight - 2)) {
       collapseFooter();
     }
 
