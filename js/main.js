@@ -64,6 +64,7 @@ $('document').ready(function() {
 
   $(window).resize(function() {
     windowHeight = $(window).innerHeight();
+    bodyHeight = $('body')[0].scrollHeight;
     readyPosition = $(window).scrollTop();
   });
 
